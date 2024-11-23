@@ -54,10 +54,10 @@ const Profile = () => {
         <img
           src={profileUrl}
           alt="Profile image"
-          className="w-40 h-40 object-cover rounded-full border-white relative"
+          className="w-25 h-25 sm:w-40 sm:h-40 object-cover rounded-full border-white relative"
         />
 
-        <button className="absoulute -ml-[6rem] z-10 mt-[9rem] bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600">
+        <button className="absoulute -ml-[4.3rem] sm:-ml-[6rem] z-10 mt-[5rem] sm:mt-[9rem] bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600">
           <label htmlFor="profile-upload" className="cursor-pointer">
             <FaCamera size={24} />
           </label>
@@ -71,12 +71,12 @@ const Profile = () => {
         </button>
 
         <div className="ml-4 mt-4">
-          <h1 className="text-2xl font-bold ml-[4rem]">Jwen128</h1>
-          <p className="ml-[4rem]">1M views</p>
-          <p className="mt-2 ml-[4rem]">
+          <h1 className="text-2xl font-bold ml-[2rem] sm:ml-[4rem]">Jwen128</h1>
+          <p className="ml-[2rem] sm:ml-[4rem]">1M views</p>
+          <p className="mt-2 ml-[2rem] sm:ml-[4rem]">
             This is short description of the profile.
           </p>
-          <button className="ml-[4rem] mt-4 bg-red-600 text-white py-2 px-4 rounded hover:bg-red-500">
+          <button className="ml-[2rem] sm:ml-[4rem] mt-4 bg-red-600 text-white py-2 px-4 rounded hover:bg-red-500">
             Subscribe
           </button>
         </div>

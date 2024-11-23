@@ -28,7 +28,7 @@ const Contact = () => {
     <section className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Contact Me</h2>
 
-      <div className="flex items-center">
+      <div className="flex items-center flex-wrap gap-3">
         {links.map(({ href, label, icon }, index) => (
           <a
             href={href}

@@ -91,7 +91,7 @@ const Tabs = () => {
           >
             <div className="flex items-center justify-center space-x-2">
               {icon}
-              <span>{label}</span>
+              <span className="hidden md:block">{label}</span>
             </div>
           </button>
         ))}
